@@ -1,11 +1,10 @@
-# 📘 Study Mode Tutor
+📘 Study Mode Tutor
 
-This project contains everything you need to run your **AI-powered study assistant** locally. It provides interactive tutoring features like chat, quizzes, PDF uploads, assignment support, and **progress review** — powered by the **Gemini API**.
+This project contains everything you need to run your **AI-powered study assistant** locally. It provides interactive tutoring features like chat, quizzes, PDF uploads, and assignment support — powered by the **Gemini API**.
 
 ---
 
-## ✨ Features
-
+## Features
 - 🤖 **AI Tutor** – Ask questions and get instant answers  
 - 📄 **PDF Uploads** – Summarize and explain study materials  
 - 🧩 **Interactive Quizzes** – Auto-generate practice questions  
@@ -15,7 +14,7 @@ This project contains everything you need to run your **AI-powered study assista
 
 ---
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 Make sure you have installed:
 
@@ -25,15 +24,15 @@ Make sure you have installed:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/studymodetutor.git
-cd studymodetutor
+git clone https://github.com/your-username/study-mode-tutor.git
+cd study-mode-tutor
 npm install
-```
+
 
 Create a `.env.local` file in the project root and add your Gemini API key:
 
@@ -59,7 +58,7 @@ Then open the app in your browser at:
 ## 📂 Project Structure
 
 ```
-studymodetutor/
+study-mode-tutor/
 │── App.tsx               # Main application entry
 │── index.tsx             # React bootstrap
 │── components/           # UI components
@@ -67,7 +66,6 @@ studymodetutor/
 │   ├── ChatView.tsx
 │   ├── PdfUpload.tsx
 │   ├── QuizView.tsx
-│   ├── ProgressReview.tsx   # (new) Review My Progress feature
 │   └── assignment/
 │       └── AssignmentView.tsx
 │── services/             # API integration
@@ -80,55 +78,6 @@ studymodetutor/
 │── .env.local            # Environment variables
 ```
 
----
-
-## 💡 Example Usage
-
-### Ask a Study Question
-```
-"What are the main causes of World War I?"
-```
-
-### Generate a Quiz
-```
-"Create a 5-question multiple choice quiz about World War I"
-```
-
-### Work with a PDF
-1. Upload your study material (PDF)  
-2. Ask:  
-```
-"Summarize the key points from Chapter 2"
-```
-
-### Review Your Progress
-```
-"Show me a summary of my study progress this week"
-```
-
----
-
-## ⚠️ Troubleshooting
-
-- **Missing GEMINI_API_KEY** → Check your `.env.local` file  
-- **Port in use** → Change default port in `vite.config.ts`  
-- **Dependency errors** → Run `npm install` again  
-
----
-
-## 📦 Dependencies
-
-| Package       | Purpose                   |
-|---------------|---------------------------|
-| React         | UI framework              |
-| TypeScript    | Type safety               |
-| Vite          | Development/build tool    |
-| dotenv        | Environment variables     |
-| @google/genai | Gemini API client         |
-| pdfjs-dist    | PDF parsing & rendering   |
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!  
@@ -136,10 +85,9 @@ You can extend this project by:
 - Adding new quiz types  
 - Enhancing PDF parsing  
 - Improving assignment workflows  
-- Expanding progress tracking  
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.  
+This project is licensed under the **MIT License**.  
